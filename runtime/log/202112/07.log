@@ -1,0 +1,4266 @@
+---------------------------------------------------------------
+
+[2021-12-07T11:01:45+08:00] 127.0.0.1 GET mytp.test:8081/
+[运行时间：0.308221s] [吞吐率：3.24req/s] [内存消耗：3,566.42kb] [文件加载：62]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:01:57+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.136503s] [吞吐率：7.33req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:34:18+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.162393s] [吞吐率：6.16req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:34:18+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.182356s] [吞吐率：5.48req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:34:19+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.323809s] [吞吐率：3.09req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:36:01+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.170190s] [吞吐率：5.88req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:01+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.247516s] [吞吐率：4.04req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:01+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.199861s] [吞吐率：5.00req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:36:06+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.759222756621035
+[运行时间：0.139867s] [吞吐率：7.15req/s] [内存消耗：2,854.42kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.759222756621035',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:36:07+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.3089159534308461
+[运行时间：0.141067s] [吞吐率：7.09req/s] [内存消耗：2,854.45kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.3089159534308461',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:36:49+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.175447s] [吞吐率：5.70req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:49+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.242685s] [吞吐率：4.12req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.190552s] [吞吐率：5.25req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:36:51+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.224763s] [吞吐率：4.45req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:51+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.317976s] [吞吐率：3.14req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:36:51+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.282545s] [吞吐率：3.54req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:38:12+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.284829s] [吞吐率：3.51req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:38:12+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.387377s] [吞吐率：2.58req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:38:12+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.301437s] [吞吐率：3.32req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:38:12+08:00] 127.0.0.1 GET mytp.test:8081/user/images/b1.jpg
+[运行时间：0.208237s] [吞吐率：4.80req/s] [内存消耗：2,889.71kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:40:42+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.38005196790022233
+[运行时间：0.222922s] [吞吐率：4.49req/s] [内存消耗：2,854.45kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.38005196790022233',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:40:55+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.294151s] [吞吐率：3.40req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:40:55+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.396670s] [吞吐率：2.52req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:40:55+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.316906s] [吞吐率：3.16req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:40:55+08:00] 127.0.0.1 GET mytp.test:8081/user/images/b1.jpg
+[运行时间：0.287829s] [吞吐率：3.47req/s] [内存消耗：2,889.71kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:41:07+08:00] 127.0.0.1 GET mytp.test:8081/user/js/exit.js
+[运行时间：0.302132s] [吞吐率：3.31req/s] [内存消耗：2,889.64kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:41:07+08:00] 127.0.0.1 GET mytp.test:8081/user/css/elegant.css
+[运行时间：0.419356s] [吞吐率：2.38req/s] [内存消耗：2,889.55kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:41:07+08:00] 127.0.0.1 GET mytp.test:8081/user/images/b1.jpg
+[运行时间：0.258038s] [吞吐率：3.88req/s] [内存消耗：2,889.71kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:42:17+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.173294s] [吞吐率：5.77req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:42:17+08:00] 127.0.0.1 GET mytp.test:8081/user/images/b1.jpg
+[运行时间：0.216179s] [吞吐率：4.63req/s] [内存消耗：2,889.71kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:42:43+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.155316s] [吞吐率：6.44req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:42:43+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.220148s] [吞吐率：4.54req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:42:45+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.193110s] [吞吐率：5.18req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:42:45+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.173771s] [吞吐率：5.75req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:43:09+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.173818s] [吞吐率：5.75req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:43:09+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.219042s] [吞吐率：4.57req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:43:13+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.6001585620791179
+[运行时间：0.204056s] [吞吐率：4.90req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.6001585620791179',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:43:14+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.11828569949745482
+[运行时间：0.245398s] [吞吐率：4.08req/s] [内存消耗：2,854.37kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.11828569949745482',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:43:35+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.154988s] [吞吐率：6.45req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:43:35+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.208360s] [吞吐率：4.80req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:44:58+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.207606s] [吞吐率：4.82req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:44:58+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.264903s] [吞吐率：3.77req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:26+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.204599s] [吞吐率：4.89req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:45:26+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.241569s] [吞吐率：4.14req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:45+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.148597s] [吞吐率：6.73req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:45:45+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.190662s] [吞吐率：5.24req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:48+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.9571058779409742
+[运行时间：0.162162s] [吞吐率：6.17req/s] [内存消耗：2,854.43kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.9571058779409742',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.44159680305192683
+[运行时间：0.153636s] [吞吐率：6.51req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.44159680305192683',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.45816659241015856
+[运行时间：0.152356s] [吞吐率：6.56req/s] [内存消耗：2,854.40kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.45816659241015856',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.7632297012698688
+[运行时间：0.138678s] [吞吐率：7.21req/s] [内存消耗：2,854.42kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.7632297012698688',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:50+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.5379892883658157
+[运行时间：0.173757s] [吞吐率：5.76req/s] [内存消耗：2,854.37kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.5379892883658157',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:50+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.6914119701156471
+[运行时间：0.135440s] [吞吐率：7.38req/s] [内存消耗：2,854.44kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.6914119701156471',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:51+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.0036865734881781353
+[运行时间：0.172516s] [吞吐率：5.80req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.0036865734881781353',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:52+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.20024627572782427
+[运行时间：0.131174s] [吞吐率：7.62req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.20024627572782427',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:52+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.88764856036547
+[运行时间：0.170254s] [吞吐率：5.87req/s] [内存消耗：2,854.42kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.88764856036547',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:53+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.6792080987347926
+[运行时间：0.171912s] [吞吐率：5.82req/s] [内存消耗：2,854.45kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.6792080987347926',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:45:53+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.3001512298558999
+[运行时间：0.127807s] [吞吐率：7.82req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.3001512298558999',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:46:42+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.282012s] [吞吐率：3.55req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:46:43+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.326841s] [吞吐率：3.06req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:47:01+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.153058s] [吞吐率：6.53req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:47:01+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.191136s] [吞吐率：5.23req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:47:12+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.131273s] [吞吐率：7.62req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:47:12+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.144491s] [吞吐率：6.92req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:47:35+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.176819s] [吞吐率：5.66req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:47:35+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.199649s] [吞吐率：5.01req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:47:48+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.130214s] [吞吐率：7.68req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:47:48+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.157364s] [吞吐率：6.35req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:49:58+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.188485s] [吞吐率：5.31req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:49:58+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.170285s] [吞吐率：5.87req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:51:02+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.191400s] [吞吐率：5.22req/s] [内存消耗：2,854.30kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:51:02+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.168572s] [吞吐率：5.93req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:51:48+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.169444s] [吞吐率：5.90req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:51:48+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.223450s] [吞吐率：4.48req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:52:09+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.182273s] [吞吐率：5.49req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:52:09+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.168150s] [吞吐率：5.95req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:52:16+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.15570024862439436
+[运行时间：0.143260s] [吞吐率：6.98req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.15570024862439436',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:52:31+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.135679s] [吞吐率：7.37req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:52:31+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.139487s] [吞吐率：7.17req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:54:24+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.284562s] [吞吐率：3.51req/s] [内存消耗：2,854.30kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:54:24+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.217912s] [吞吐率：4.59req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:54:31+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.063669s] [吞吐率：15.71req/s] [内存消耗：2,854.30kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:54:31+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.056635s] [吞吐率：17.66req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:54:38+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.161069s] [吞吐率：6.21req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:54:38+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.226302s] [吞吐率：4.42req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:55:13+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.116612s] [吞吐率：8.58req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:55:14+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.092295s] [吞吐率：10.83req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:55:56+08:00] 127.0.0.1 GET mytp.test:8081/user/images/dd10.jpg
+[运行时间：0.161386s] [吞吐率：6.20req/s] [内存消耗：2,889.66kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T11:55:56+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.192795s] [吞吐率：5.19req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:56:47+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.243315s] [吞吐率：4.11req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:57:20+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.134639s] [吞吐率：7.43req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:57:34+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.168209s] [吞吐率：5.94req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:57:43+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.253452s] [吞吐率：3.95req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:58:13+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.128175s] [吞吐率：7.80req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:58:19+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.9193441730615333
+[运行时间：0.127960s] [吞吐率：7.81req/s] [内存消耗：2,854.78kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.9193441730615333',
+)
+---------------------------------------------------------------
+
+[2021-12-07T11:58:28+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.168365s] [吞吐率：5.94req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:00:41+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.165611s] [吞吐率：6.04req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:00:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.9641768726109228
+[运行时间：0.156849s] [吞吐率：6.38req/s] [内存消耗：2,854.78kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.9641768726109228',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:00:58+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.224937s] [吞吐率：4.45req/s] [内存消耗：2,854.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:01:54+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.145247s] [吞吐率：6.88req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:02:01+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.8173992223754201
+[运行时间：0.146879s] [吞吐率：6.81req/s] [内存消耗：2,854.76kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.8173992223754201',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:02:10+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.108725s] [吞吐率：9.20req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:02:39+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.154491s] [吞吐率：6.47req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:03:08+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.173625s] [吞吐率：5.76req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:01+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.149329s] [吞吐率：6.70req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:08+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.6709356453513311
+[运行时间：0.160118s] [吞吐率：6.25req/s] [内存消耗：2,854.78kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.6709356453513311',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:08+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.19732806610899423
+[运行时间：0.159547s] [吞吐率：6.27req/s] [内存消耗：2,854.81kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.19732806610899423',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:09+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.8230942841335431
+[运行时间：0.181332s] [吞吐率：5.51req/s] [内存消耗：2,854.78kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.8230942841335431',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:18+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.272170s] [吞吐率：3.67req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:07:51+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.210101s] [吞吐率：4.76req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:08:38+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.174768s] [吞吐率：5.72req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:08:42+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.7362417298456876
+[运行时间：0.152994s] [吞吐率：6.54req/s] [内存消耗：2,854.78kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.7362417298456876',
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:08:50+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.154772s] [吞吐率：6.46req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:09:33+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.246562s] [吞吐率：4.06req/s] [内存消耗：2,854.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:10:39+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.186685s] [吞吐率：5.36req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:10:49+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.188145s] [吞吐率：5.32req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:10:59+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.181073s] [吞吐率：5.52req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:11:02+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.154180s] [吞吐率：6.49req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:11:15+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.156550s] [吞吐率：6.39req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:11:29+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.262401s] [吞吐率：3.81req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:11:46+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.151686s] [吞吐率：6.59req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:11:57+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.157208s] [吞吐率：6.36req/s] [内存消耗：2,854.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:12:07+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.286374s] [吞吐率：3.49req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:12:22+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.191360s] [吞吐率：5.23req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T12:12:50+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.150582s] [吞吐率：6.64req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=hhts40uukndlfuh6g1t2ibq1f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:47:22+08:00] 127.0.0.1 GET mytp.test:8081/
+[运行时间：0.068819s] [吞吐率：14.53req/s] [内存消耗：3,566.42kb] [文件加载：62]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:47:34+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.056623s] [吞吐率：17.66req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:48:03+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044880s] [吞吐率：22.28req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:48:12+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.050168s] [吞吐率：19.93req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:48:52+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.047199s] [吞吐率：21.19req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:49:20+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.050532s] [吞吐率：19.79req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:49:47+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.042998s] [吞吐率：23.26req/s] [内存消耗：2,854.34kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:50:20+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.048291s] [吞吐率：20.71req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:50:26+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.047842s] [吞吐率：20.90req/s] [内存消耗：2,854.28kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:50:36+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.048273s] [吞吐率：20.72req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:01+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.043751s] [吞吐率：22.86req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:07+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.046820s] [吞吐率：21.36req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:17+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044750s] [吞吐率：22.35req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:23+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044472s] [吞吐率：22.49req/s] [内存消耗：2,854.28kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:30+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.047265s] [吞吐率：21.16req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:51:41+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.045640s] [吞吐率：21.91req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:52:56+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.046396s] [吞吐率：21.55req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:53:19+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.053315s] [吞吐率：18.76req/s] [内存消耗：2,854.28kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:53:25+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.050228s] [吞吐率：19.91req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:55:29+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.050919s] [吞吐率：19.64req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:55:37+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.10126707122973988
+[运行时间：0.042516s] [吞吐率：23.52req/s] [内存消耗：2,854.44kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.10126707122973988',
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:55:39+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.8595643537215176
+[运行时间：0.050154s] [吞吐率：19.94req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.8595643537215176',
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:55:47+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044397s] [吞吐率：22.52req/s] [内存消耗：2,854.28kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:56:04+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.046856s] [吞吐率：21.34req/s] [内存消耗：2,854.34kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:56:28+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.048383s] [吞吐率：20.67req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:57:37+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.050474s] [吞吐率：19.81req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:57:51+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.19491728256593444
+[运行时间：0.049085s] [吞吐率：20.37req/s] [内存消耗：2,854.84kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.19491728256593444',
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:58:02+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.048244s] [吞吐率：20.73req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:58:21+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.2531670176665364
+[运行时间：0.049966s] [吞吐率：20.01req/s] [内存消耗：2,854.77kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.2531670176665364',
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:58:23+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.2570263989042083
+[运行时间：0.047083s] [吞吐率：21.24req/s] [内存消耗：2,854.80kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.2570263989042083',
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:58:45+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.045668s] [吞吐率：21.90req/s] [内存消耗：2,854.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T14:59:54+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044443s] [吞吐率：22.50req/s] [内存消耗：2,854.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:00:24+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.049923s] [吞吐率：20.03req/s] [内存消耗：2,854.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:00:38+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.047204s] [吞吐率：21.18req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:00:51+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.046576s] [吞吐率：21.47req/s] [内存消耗：2,854.70kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:01:19+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.044165s] [吞吐率：22.64req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:01:37+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.051116s] [吞吐率：19.56req/s] [内存消耗：2,854.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:03:08+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.047022s] [吞吐率：21.27req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T15:38:44+08:00] 127.0.0.1 GET mytp.test:8081/apeople/index/login.html
+[运行时间：0.050056s] [吞吐率：19.98req/s] [内存消耗：2,889.72kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T15:38:51+08:00] 127.0.0.1 GET mytp.test:8081/people/index/login.html
+[运行时间：0.072304s] [吞吐率：13.83req/s] [内存消耗：3,673.91kb] [文件加载：66]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T16:01:10+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.061624s] [吞吐率：16.23req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T20:16:55+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.091991s] [吞吐率：10.87req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T20:17:57+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.051931s] [吞吐率：19.26req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T20:17:59+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.46179855412855564
+[运行时间：0.046915s] [吞吐率：21.32req/s] [内存消耗：2,854.44kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.46179855412855564',
+)
+---------------------------------------------------------------
+
+[2021-12-07T20:18:00+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.34232084306200417
+[运行时间：0.047150s] [吞吐率：21.21req/s] [内存消耗：2,854.45kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.34232084306200417',
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:24:05+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.033891s] [吞吐率：29.51req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:24:13+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.5660964141519049
+[运行时间：0.026549s] [吞吐率：37.67req/s] [内存消耗：2,854.41kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.5660964141519049',
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:30:56+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887456
+[运行时间：0.033016s] [吞吐率：30.29req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:30:56+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.037713s] [吞吐率：26.52req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:31:00+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887459
+[运行时间：0.027735s] [吞吐率：36.06req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:31:00+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.035601s] [吞吐率：28.09req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:31:06+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887466
+[运行时间：0.026871s] [吞吐率：37.21req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:31:06+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.035269s] [吞吐率：28.35req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:31:17+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887477
+[运行时间：0.022825s] [吞吐率：43.81req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:31:17+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.027215s] [吞吐率：36.74req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:31:18+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887478
+[运行时间：0.025740s] [吞吐率：38.85req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:31:18+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.030410s] [吞吐率：32.88req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:31:23+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/egalent.css?_=1638887483
+[运行时间：0.027992s] [吞吐率：35.72req/s] [内存消耗：2,889.58kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-07T22:31:23+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.038232s] [吞吐率：26.16req/s] [内存消耗：2,854.29kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:32:11+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.030107s] [吞吐率：33.21req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:32:36+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.035236s] [吞吐率：28.38req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:32:53+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.034104s] [吞吐率：29.32req/s] [内存消耗：2,854.32kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:33:07+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.031828s] [吞吐率：31.42req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:33:08+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.034033s] [吞吐率：29.38req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:33:17+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.035958s] [吞吐率：27.81req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-12-07T22:35:21+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html?_=0.39929835780099365
+[运行时间：0.039682s] [吞吐率：25.20req/s] [内存消耗：2,854.38kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=kh3edbe7q6e7025kki44mg74o3',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.39929835780099365',
+)

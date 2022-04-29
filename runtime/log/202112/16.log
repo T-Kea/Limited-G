@@ -1,0 +1,154 @@
+---------------------------------------------------------------
+
+[2021-12-16T23:51:31+08:00] 127.0.0.1 GET mytp.test:8081/
+[运行时间：0.250918s] [吞吐率：3.99req/s] [内存消耗：7,429.50kb] [文件加载：97]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] K:\study_php\web\mytp\application\index\view\index\index.html [ array (
+  0 => 'goods',
+  1 => 'category',
+  2 => 'category_id',
+  3 => 'search',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019014s ] mysql:host=127.0.0.1;port=3308;dbname=articleweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_goods` [ RunTime:0.015511s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods_goods` WHERE  ( `status`=1 ) [ RunTime:0.002912s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_goods` WHERE  ( `status`=1 ) ORDER BY `id` DESC LIMIT 0,7 [ RunTime:0.002159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_category` [ RunTime:0.003355s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_category` WHERE  `id` IN (80,84,83,82) [ RunTime:0.002456s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_category` ORDER BY `sort` ASC [ RunTime:0.001748s ]
+[ error ] [8]未定义变量: layout_token[K:\study_php\web\mytp\runtime\temp\c09cca7f5fb6f7ad44ced2eda83031d6.php:70]
+---------------------------------------------------------------
+
+[2021-12-16T23:51:31+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/laydate/default/laydate.css?v=5.3.1
+[运行时间：0.112438s] [吞吐率：8.89req/s] [内存消耗：2,890.16kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:31+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/layer/default/layer.css?v=3.5.1
+[运行时间：0.113109s] [吞吐率：8.84req/s] [内存消耗：2,890.17kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:31+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/code.css?v=2
+[运行时间：0.106564s] [吞吐率：9.38req/s] [内存消耗：2,890.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:32+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.woff2?v=256
+[运行时间：0.071115s] [吞吐率：14.06req/s] [内存消耗：2,889.92kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:32+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.woff?v=256
+[运行时间：0.074166s] [吞吐率：13.48req/s] [内存消耗：2,890.01kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:32+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.ttf?v=256
+[运行时间：0.067143s] [吞吐率：14.89req/s] [内存消耗：2,890.02kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/
+[运行时间：0.223500s] [吞吐率：4.47req/s] [内存消耗：7,167.82kb] [文件加载：95]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] K:\study_php\web\mytp\application\index\view\index\index.html [ array (
+  0 => 'goods',
+  1 => 'category',
+  2 => 'category_id',
+  3 => 'search',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017235s ] mysql:host=127.0.0.1;port=3308;dbname=articleweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_goods` [ RunTime:0.003264s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods_goods` WHERE  ( `status`=1 ) [ RunTime:0.002117s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_goods` WHERE  ( `status`=1 ) ORDER BY `id` DESC LIMIT 0,7 [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_category` [ RunTime:0.003642s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_category` WHERE  `id` IN (80,84,83,82) [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_category` ORDER BY `sort` ASC [ RunTime:0.001400s ]
+[ error ] [8]未定义变量: layout_token[K:\study_php\web\mytp\runtime\temp\c09cca7f5fb6f7ad44ced2eda83031d6.php:70]
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/laydate/default/laydate.css?v=5.3.1
+[运行时间：0.094767s] [吞吐率：10.55req/s] [内存消耗：2,890.16kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/layer/default/layer.css?v=3.5.1
+[运行时间：0.095704s] [吞吐率：10.45req/s] [内存消耗：2,890.17kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/modules/code.css?v=2
+[运行时间：0.098619s] [吞吐率：10.14req/s] [内存消耗：2,890.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.woff2?v=256
+[运行时间：0.072335s] [吞吐率：13.82req/s] [内存消耗：2,889.92kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.woff?v=256
+[运行时间：0.074361s] [吞吐率：13.45req/s] [内存消耗：2,890.01kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:35+08:00] 127.0.0.1 GET mytp.test:8081/static/admin/css/font/iconfont.ttf?v=256
+[运行时间：0.075856s] [吞吐率：13.18req/s] [内存消耗：2,890.02kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-12-16T23:51:39+08:00] 127.0.0.1 GET mytp.test:8081/captcha.html
+[运行时间：0.145229s] [吞吐率：6.89req/s] [内存消耗：2,854.31kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\mytp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mytp.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://mytp.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=ogjio84br24ed0rh6eueq9oeb3',
+)
+[ info ] [ PARAM ] array (
+)

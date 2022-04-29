@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+
+[2021-11-27T00:15:31+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.110704s] [吞吐率：9.03req/s] [内存消耗：2,854.91kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=o41i32iov257vjoarr8cat01a6',
+)
+[ info ] [ PARAM ] array (
+)

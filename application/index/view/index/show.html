@@ -1,0 +1,31 @@
+<div >  
+    <div class='layui-row'>
+        <div class="layui-col-md2">&nbsp;</div>
+        <div class='layui-collapse layui-col-md8' lay-accordion>
+            {foreach $article as $v}
+            <div class='layui-colla-item layui-elem-quote'>
+                <a href="{:url('detail',['id'=>$v.id])}" >
+                <h6>
+                    【标题】：{$v.name} | 作者：{$v.writer}<hr>
+                    
+                    <p align="right">
+                    阅读量：{$v.num}
+                    </>
+                </h6>
+                </a>
+            </div>
+            {/foreach}
+
+            <!-- 分页功能 -->
+            {if $article->isEmpty()}
+            <div>
+                <div class="text-center">当前列表暂无文章</div>
+            </div>
+            {/if}
+            <div class="footer btn " style="background-color: #FAFAFA;">
+                <div class="btn " ><h5>{$article | raw}</h5><br></div>
+            </div>
+        </div>
+        
+    <div> 
+</div>

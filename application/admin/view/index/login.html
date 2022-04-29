@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>哩迹文章网内容管理系统</title>
+  <link rel="stylesheet" href="__CDN__/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="__CDN__/toastr.js/2.1.4/toastr.min.css">
+  <link rel="stylesheet" href="__STATIC__/css/main.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <link rel="stylesheet" href="__STATIC__/css/elegant.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <script src="__CDN__/jquery/1.12.4/jquery.min.js"></script>
+  <script src="__CDN__/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="__CDN__/toastr.js/2.1.4/toastr.min.js"></script>
+  <script src="__STATIC__/js/main.js?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}"></script>
+  <script src="__STATIC__/layui.js?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}"></script>
+</head>
+
+<body>
+  <div class="align-items-center d-flex photo-overlay py-5 cover">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-7 align-self-center text-lg-left text-center">
+          <h1 class="mb-0 mt-4 display-3">哩迹文章网   后台管理系统</h1>
+          <p class="mb-5 lead">LIMIT-G ARTICLE WEB administrator system</p>
+        </div>
+
+        <div class="col-lg-5 p-3">
+          <form class="bg-dark-opaque" method="post">
+            <h1 class="mb-4 text-center">管理员登录界面</h1>
+            <div class="form-group"> 
+                <label>ADMIN ID</label>
+                <input class="form-control" placeholder="请输入管理员ID" name="username" type="text" required> 
+            </div>
+            <div class="form-group"> 
+                <label>PASSWORD</label>
+                <input class="form-control" placeholder="请输入密码" name="password" type="password" required>
+            </div>
+            <div class="form-group"> 
+                <label>CAPTCHA</label>
+                <input class="form-control" placeholder="请输入验证码" name="captcha" type="text" required>
+            </div>
+            <div class="form-group">
+                <div class="login-captcha"><img src="{:captcha_src()}" alt="captcha"></div>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn mt-4 btn-block btn-outline-primary p-2" value="登录">
+            </div>
+          </form>
+            <div class="main-loading" style="display:none">
+                <div class="dot-carousel"></div>
+            </div>  
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    main.init({token:'{$token}'});
+
+    main.ajaxForm('.bg-dark-opaque', function() {
+      location.href = "{:url('Index/index')}";
+    }, function() {
+      $('.login-captcha img').click();
+    });
+
+    $('.login-captcha img').click(function () {
+      $(this).attr('src', '{:captcha_src()}' + '?_=' + Math.random());
+    });
+  </script>
+
+</body>
+</html>

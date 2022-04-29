@@ -1,0 +1,94 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>哩迹文章网</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="__STATIC__/css/css/layui.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}" tppabs="https://www.layui.site/layui/dist/css/layui.css"  media="all">
+  <link rel="stylesheet" href="__STATIC__/css/css/wireframe.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <link rel="stylesheet" href="__STATIC__/css/css/bootstrap.min.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <link rel="stylesheet" href="__STATIC__/css/css/style.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <link rel="stylesheet" href="__STATIC__/css/css/responsive.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <link rel="stylesheet" href="__STATIC__/css/main.css?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}">
+  <script src="__STATIC__/layui.js?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}"></script>
+  <script src="__CDN__/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="__STATIC__/js/main.js?{if $Think.env.app_debug}_={:time()}{else /}v={$Think.config.tpadmin.version}{/if}"></script>
+  <style>
+    body{
+        background-color:#ebebeb;
+    }
+    .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 38px;
+        z-index: 9999;
+      }
+  </style>
+</head>
+<body>
+        <nav>  
+            <ul class="layui-nav layui-bg-cyan" align="center">
+                <li class="layui-nav-item"><a href="http://mytp.test:8081/index/index"> 哩迹 LIMITED=G 文章网</a></li> 
+                {foreach $category as $v}
+                    <li class="layui-nav-item">
+                        <a href="#" >
+                            {$v.name}
+                        </a>
+                            <dl class="layui-nav-child">
+                                {foreach $v.sub as $vv}
+                                <dd>
+                                    <a href="{:url('show',['category_id'=>$vv.id])}"  >
+                                        {$vv.name}
+                                    </a>
+                                </dd>
+                                {/foreach}
+                            </dl>
+                    </li>
+                {/foreach}
+                <div style="float: right;" >
+                    <br>
+                <form class="input-group j-search" style="width:500px;margin:0 500px;">
+                    <input type="text" class="form-control" name="search" value="{$search}" 
+                     placeholder="请输入你想查找的文章题目" required>
+                    <span class="input-group-btn">
+                      <input type="submit" class="btn btn-default layui-bg-cyan" value="搜索">
+                    </span>
+                  </form>
+                  <a href="#">&nbsp;</a>
+                  {if $search !== ''}
+                    <a href="{:url('', ['category_id' => $category_id])}">清除条件</a>
+                  {/if}
+                
+            </ul>
+        </nav> 
+    
+
+    <script>
+        main.init({token:'{$layout_token}'});
+        main.layout();
+
+        $('.layui-nav').change(function(){
+            main.content($this).val()
+        });
+
+        $('.j-search').submit(function() {
+            var val = $(this).find('input[name=search]').val();
+            main.content('?search=' + encodeURIComponent(val));
+            return false;
+        });
+    </script>
+
+     <!-- 表示内容区域 -->
+    <div>
+        {__CONTENT__} 
+    </div>
+    
+    
+    
+</body>
+</html>
+
+

@@ -1,0 +1,22 @@
+
+<div class="layui-row">
+    <div class="layui-col-md1" >&nbsp;</div>
+    <div class="layui-card layui-col-md10">
+        <div class="layui-card-body" align="center">
+          <br>
+          <h4>【标题】：{$data.name}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(作者：{$data.writer})</h4>
+          <p>【发表时间】：{$data.time} &nbsp;&nbsp;&nbsp;&nbsp;【阅读量】：{$data.num}</p>
+        </div>
+        
+        <div class="layui-card-body">
+          <p>{$data.content|raw}</p>
+        </div><hr>
+        <div style="font-size: large;" align="center">
+          <a href="{:url('detail',['id'=>($data.id-1)])}">&laquo;上一篇</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="{:url('detail',['id'=>($data.id+1)])}">下一篇 &raquo;</a> 
+        </div><hr>
+      
+    </div>
+</div>
+
+

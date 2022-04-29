@@ -1,0 +1,1179 @@
+---------------------------------------------------------------
+
+[2021-11-22T08:36:55+08:00] 127.0.0.1 GET tpadmin.test:8081/
+[运行时间：0.258860s] [吞吐率：3.86req/s] [内存消耗：3,565.11kb] [文件加载：62]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:37:03+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.170106s] [吞吐率：5.88req/s] [内存消耗：3,850.62kb] [文件加载：70]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T08:37:03+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.156570s] [吞吐率：6.39req/s] [内存消耗：2,853.06kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:37:15+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.3968849670984058
+[运行时间：0.106379s] [吞吐率：9.40req/s] [内存消耗：2,853.28kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.3968849670984058',
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:37:27+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/login.html
+[运行时间：0.173397s] [吞吐率：5.77req/s] [内存消耗：3,968.59kb] [文件加载：75]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tpadmin.test:8081',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'UVB6C',
+)
+[ error ] [1]Call to a member function login() on null[K:\study_php\web\tpadmin\application\admin\controller\Index.php:21]
+---------------------------------------------------------------
+
+[2021-11-22T08:50:23+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/login.html
+[运行时间：0.179892s] [吞吐率：5.56req/s] [内存消耗：3,879.70kb] [文件加载：74]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'origin' => 'http://tpadmin.test:8081',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'UVB6C',
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T08:50:25+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.099045s] [吞吐率：10.10req/s] [内存消耗：3,867.18kb] [文件加载：71]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T08:50:25+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.117284s] [吞吐率：8.53req/s] [内存消耗：2,853.08kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:50:41+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/login.html
+[运行时间：0.302488s] [吞吐率：3.31req/s] [内存消耗：6,336.34kb] [文件加载：86]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tpadmin.test:8081',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'KHafs',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057813s ] mysql:host=127.0.0.1;port=3308;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.043401s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.005989s ]
+---------------------------------------------------------------
+
+[2021-11-22T08:50:45+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.119117s] [吞吐率：8.40req/s] [内存消耗：3,867.71kb] [文件加载：71]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T08:50:45+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.100077s] [吞吐率：9.99req/s] [内存消耗：2,853.73kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:52:56+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.181844s] [吞吐率：5.50req/s] [内存消耗：3,870.44kb] [文件加载：71]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T08:52:56+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.114325s] [吞吐率：8.75req/s] [内存消耗：2,853.76kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:52:59+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.095962s] [吞吐率：10.42req/s] [内存消耗：2,889.14kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T08:52:59+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.086494s] [吞吐率：11.56req/s] [内存消耗：2,889.40kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T08:54:05+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/test1
+[运行时间：0.115618s] [吞吐率：8.65req/s] [内存消耗：3,737.89kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:54:43+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/test2
+[运行时间：0.118459s] [吞吐率：8.44req/s] [内存消耗：3,737.92kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:59:03+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/test1
+[运行时间：0.120905s] [吞吐率：8.27req/s] [内存消耗：3,737.89kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T08:59:25+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/test2
+[运行时间：0.110750s] [吞吐率：9.03req/s] [内存消耗：3,737.92kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:00:10+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/test2
+[运行时间：0.108789s] [吞吐率：9.19req/s] [内存消耗：3,737.92kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:20:25+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/test1
+[运行时间：0.143104s] [吞吐率：6.99req/s] [内存消耗：3,736.99kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'x-csrf-token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tpadmin.test:8081',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:20:32+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/test2
+[运行时间：0.122065s] [吞吐率：8.19req/s] [内存消耗：3,737.09kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'x-csrf-token' => 'null',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tpadmin.test:8081',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:20:52+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/test2
+[运行时间：0.125780s] [吞吐率：7.95req/s] [内存消耗：3,737.09kb] [文件加载：69]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'x-csrf-token' => 'null',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://tpadmin.test:8081',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:27:06+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.161913s] [吞吐率：6.18req/s] [内存消耗：4,234.17kb] [文件加载：78]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+[ error ] [8]未定义变量: token[K:\study_php\web\tpadmin\runtime\temp\15c4cf530b255e353d45982148f64548.php:42]
+---------------------------------------------------------------
+
+[2021-11-22T09:27:32+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/login.html
+[运行时间：0.148147s] [吞吐率：6.75req/s] [内存消耗：4,120.83kb] [文件加载：73]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] K:\study_php\web\tpadmin\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2021-11-22T09:27:33+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.097180s] [吞吐率：10.29req/s] [内存消耗：2,853.76kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:28:15+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.8896307094191662
+[运行时间：0.113773s] [吞吐率：8.79req/s] [内存消耗：2,854.02kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.8896307094191662',
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:28:26+08:00] 127.0.0.1 POST tpadmin.test:8081/admin/index/login.html
+[运行时间：0.193554s] [吞吐率：5.17req/s] [内存消耗：6,337.20kb] [文件加载：85]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'content-length' => '344',
+  'accept' => '*/*',
+  'x-csrf-token' => '',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGeBejTwvYBOg8hLo',
+  'origin' => 'http://tpadmin.test:8081',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'fxrtc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004645s ] mysql:host=127.0.0.1;port=3308;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.018442s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001816s ]
+---------------------------------------------------------------
+
+[2021-11-22T09:28:26+08:00] 127.0.0.1 GET tpadmin.test:8081/admin/index/index.html
+[运行时间：0.097116s] [吞吐率：10.30req/s] [内存消耗：3,711.06kb] [文件加载：67]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:57:55+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.099316s] [吞吐率：10.07req/s] [内存消耗：2,855.88kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=25&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:57:55+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.072607s] [吞吐率：13.77req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T09:57:55+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.088964s] [吞吐率：11.24req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T09:58:04+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.8312461740166657
+[运行时间：0.101355s] [吞吐率：9.87req/s] [内存消耗：2,856.04kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=25&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.8312461740166657',
+)
+---------------------------------------------------------------
+
+[2021-11-22T09:58:06+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.7282178501034064
+[运行时间：0.114111s] [吞吐率：8.76req/s] [内存消耗：2,856.03kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=25&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=b5fb1ahfb0huduftiuif6ol0f5',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.7282178501034064',
+)
+---------------------------------------------------------------
+
+[2021-11-22T11:20:38+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.261804s] [吞吐率：3.82req/s] [内存消耗：2,854.98kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T11:20:40+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.056506s] [吞吐率：17.70req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:20:40+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.058344s] [吞吐率：17.14req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:34:23+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.155389s] [吞吐率：6.44req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:34:23+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.178557s] [吞吐率：5.60req/s] [内存消耗：2,856.06kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T11:34:23+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.086191s] [吞吐率：11.60req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:49:36+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.097652s] [吞吐率：10.24req/s] [内存消耗：2,856.04kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T11:49:36+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.069177s] [吞吐率：14.46req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:49:36+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.081962s] [吞吐率：12.20req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:49:52+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.139809s] [吞吐率：7.15req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T11:49:52+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.086748s] [吞吐率：11.53req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:00:38+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.052729s] [吞吐率：18.96req/s] [内存消耗：2,856.09kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T12:00:38+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.043527s] [吞吐率：22.97req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:00:38+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.053033s] [吞吐率：18.86req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:14+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.055411s] [吞吐率：18.05req/s] [内存消耗：2,856.04kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T12:11:14+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.042789s] [吞吐率：23.37req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:14+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.040794s] [吞吐率：24.51req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:28+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.043168s] [吞吐率：23.17req/s] [内存消耗：2,855.67kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T12:11:28+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.038534s] [吞吐率：25.95req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:28+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.037751s] [吞吐率：26.49req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:35+08:00] 127.0.0.1 GET tpadmin.test:8081/admi/index/login.html
+[运行时间：0.024921s] [吞吐率：40.13req/s] [内存消耗：2,890.24kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:50+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.040320s] [吞吐率：24.80req/s] [内存消耗：2,855.69kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T12:11:50+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/toastr.js/2.1.4/toastr.js.map
+[运行时间：0.034537s] [吞吐率：28.95req/s] [内存消耗：2,890.90kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:11:50+08:00] 127.0.0.1 GET tpadmin.test:8081/static/common/twitter-bootstrap/3.4.1/css/bootstrap.min.css.map
+[运行时间：0.037421s] [吞吐率：26.72req/s] [内存消耗：2,891.13kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2021-11-22T12:22:10+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.2685102917926443
+[运行时间：0.036752s] [吞吐率：27.21req/s] [内存消耗：2,855.81kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.2685102917926443',
+)
+---------------------------------------------------------------
+
+[2021-11-22T14:09:44+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.035638s] [吞吐率：28.06req/s] [内存消耗：2,855.79kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T14:20:41+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html
+[运行时间：0.037260s] [吞吐率：26.84req/s] [内存消耗：2,855.38kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2021-11-22T14:20:55+08:00] 127.0.0.1 GET tpadmin.test:8081/captcha.html?_=0.7290966319482739
+[运行时间：0.031999s] [吞吐率：31.25req/s] [内存消耗：2,855.77kb] [文件加载：55]
+[ info ] [ LANG ] K:\study_php\web\tpadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tpadmin.test:8081',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29',
+  'accept' => 'image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'socketlog' => 'SocketLog(tabid=2&client_id=thinkphp_zfH5NbLn)',
+  'referer' => 'http://tpadmin.test:8081/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'cookie' => 'PHPSESSID=f3d45gccc4t8ijoi2629dff1r0',
+)
+[ info ] [ PARAM ] array (
+  '_' => '0.7290966319482739',
+)
